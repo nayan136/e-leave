@@ -1,0 +1,40 @@
+
+
+body select
+{
+   display: inline;
+   padding: 8px 70px 8px 13px !important;
+    max-width: 100%;
+    height: auto !important;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    background: url("https://image.ibb.co/iMeAJv/selectbox_arrow.png") right center no-repeat;
+    background-color: #fff;
+    color: #444444;
+   font-size: 16px;
+   font-weight: bold;
+   line-height: 16px !important;
+   appearance: none;
+    /* this is must */
+   -webkit-appearance: none;
+   -moz-appearance: none;
+ }
+ /* body select.select_box option */
+  body select option {
+    padding: 0 4px;
+}
+ /* for IE and Edge */
+select::-ms-expand {
+  display: none;
+}
+select:disabled::-ms-expand {
+   background: #f60;
+}
+
+.make_inline{
+  display: inline;
+}
+
+.right{
+  float: right;
+}

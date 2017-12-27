@@ -1,0 +1,96 @@
+
+#border_padding{
+	padding: 20px;
+}
+
+#pagination{
+	background-color: red;
+}
+
+.margin_top{
+	margin-top: 5px;
+}
+
+.margin_bottom{
+	margin-bottom: 10px;
+}
+.center_text{
+  text-align: center;
+}
+
+.layout_center{
+	position: relative;
+	top: 30%;
+}
+
+#grey{
+	color: rgb(216,216,216);
+}
+
+.header_anchor{
+	color:white;
+}
+
+.header_anchor:hover{
+	color: #ECECEA;
+}
+
+.ui.color1.menu {
+  background-color: #008B8B;
+  color: #327c69;
+}
+
+/*#text_padding{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}*/
+
+.ui.segment[class*="bottom attached"]{
+	margin-bottom: 0;
+}
+
+.text_header{
+ color: white;
+ font-size: 30px;
+ padding-left: 20px;
+ padding-top: 20px;
+ padding-bottom: 25px;
+ padding-top: 25px;
+
+}
+
+.text_header_small{
+ color: white;
+ font-size: 25px;
+ padding-left: 20px;
+ padding-top: 20px;
+ padding-bottom: 25px;
+ padding-top: 25px;
+
+}
+
+ .text_padding{
+	color: white;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.text_padding_small{
+ color: white;
+ font-size: 15px;
+ padding-left: 20px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+.application_table{
+	margin-top: 10px;
+}
+
+/* contact details */
+.contact{
+	display: none;
+}
